@@ -3,11 +3,9 @@
   var knockOnDoor, sayHello;
 
   knockOnDoor = function(who) {
-    var i, _i, _len, _ref, _results;
-    _ref = [1, 2, 3];
+    var i, _i, _results;
     _results = [];
-    for (_i = 0, _len = _ref.length; _i < _len; _i++) {
-      i = _ref[_i];
+    for (i = _i = 1; _i <= 3; i = ++_i) {
       _results.push(console.log("[knock knock knock] " + who));
     }
     return _results;
@@ -24,6 +22,6 @@
 
   sayHello();
 
-  sayHello("William");
+  sayHello("other world");
 
 }).call(this);

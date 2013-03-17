@@ -1,6 +1,6 @@
 #Function
 knockOnDoor = (who) ->
-	console.log "[knock knock knock] " + who for i in [1,2,3]
+	console.log "[knock knock knock] " + who for i in [1..3]
 
 knockOnDoor "Penny"
 
@@ -8,5 +8,8 @@ knockOnDoor "Penny"
 sayHello = (what="world") ->
 	console.log "Hello, " + what
 
+#Call a function with no parameters
 sayHello()
-sayHello "William"
+
+#Call a function with a parameter
+sayHello "other world"
