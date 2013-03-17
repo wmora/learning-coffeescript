@@ -22,7 +22,7 @@
     return console.log("Hello, " + what);
   };
 
-  sayHello(null);
+  sayHello();
 
   sayHello("William");
 

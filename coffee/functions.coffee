@@ -8,9 +8,5 @@ knockOnDoor "Penny"
 sayHello = (what="world") ->
 	console.log "Hello, " + what
 
-sayHello null
+sayHello()
 sayHello "William"
-
-#To compile/run:
-#coffee -c functions.coffee
-#node functions.js
