@@ -1,4 +1,8 @@
-#Function
+###
+Functions are defined by an optional list of parameters in parentheses, an arrow, and the function body. 
+The empty function looks like this:  ->
+###
+
 knockOnDoor = (who) ->
 	console.log "[knock knock knock] " + who for i in [1..3]
 

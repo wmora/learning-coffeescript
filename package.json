@@ -1,0 +1,16 @@
+{
+	"name":"learning-coffeescript",
+	"version":"1.0.0",
+	"author":"William Mora <wilmor24@gmail.com>",
+	"description":"simple scripts to demonstrate the basics of CoffeeScript",
+	"contributors": [
+		{
+			"name":"William Mora",
+		 	"email": "wilmor24@gmail.com"
+		}
+	],
+	"license": "MIT",
+	"dependencies" : {
+		"underscore":"1.4.4"
+	}
+}
